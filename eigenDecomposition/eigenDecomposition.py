@@ -2,7 +2,7 @@
 #
 #   Description: Implementation of the Jacobi algorithm
 #   used to find eigenvalues and eigenvectors of a
-#   simmetric matrix.
+#   symmetric matrix.
 #   Additional Sources: 
 #   http://mathfaculty.fullerton.edu/mathews//n2003/jacobimethod/jacobimethodproof.pdf
 #
