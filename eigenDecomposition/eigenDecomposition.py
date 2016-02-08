@@ -88,5 +88,5 @@ print "Eigenvectors (A)"
 print eigenvectors
 print "_____________________________________________________________________"
 print "Matrix Reconstruction Fidelity test ( A*diag(V)*inverse(A) - A = 0 ):"
-print numpy.dot(numpy.dot(eigenvectors,numpy.diag(eigenvalues)),numpy.linalg.inv(eigenvectors))-A
+print numpy.dot(numpy.dot(eigenvectors,numpy.diag(eigenvalues)),eigenvectors.T)-A
 print "_____________________________________________________________________"
